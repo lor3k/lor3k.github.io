@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lorencowicz</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext');
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        height: 100vh;
+        background-color: #2d4050;
+        color: #F7E1BE;
+    }
+
+    body,
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a:link,
+    a:visited,
+    a:focus {
+        color: #F7E1BE;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #AB8E61;
+    }
+
+    .icons {
+        padding: 2em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .names {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 3.2em;
+    }
+
+    .fe {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 1em;
+        letter-spacing: 0.25em;
+        padding: 0.5em;
+    }
+
+    .icon,
+    .icon2 {
+        transition: 0.5s;
+        margin: 0 0.5em;
+        font-size: 3.2em;
+    }
+
+    .icon2 {
+        font-size: 2.8em;
+    }
+</style>
+
+<body>
+    <div class='flex'>
+        <p class='names'>Paweł Lorencowicz</p>
+        <p class='fe'>FRONT-END DEVELOPER</p>
+    </div>
+    <div class='icons'>
+        <a href="https://www.linkedin.com/in/plorencowicz/" target="_blank">
+            <i class="fab fa-linkedin icon"></i>
+        </a>
+        <a href="https://github.com/lor3k" target="_blank">
+            <i class="fab fa-github-square icon"></i>
+        </a>
+        <i class="fas fa-envelope-square icon"></i>
+        <a href="cv.pdf" target="_blank" class="flex">
+            <i class="fas fa-file-alt icon2"></i>
+        </a>
+    </div>
+</body>
+
+</html>
